@@ -8,7 +8,7 @@ public class DBManage {
 
     private final String url = "jdbc:mysql://localhost:3306/";
     private final String username = "root";
-    private final String password = "Abhay#12345";
+    private final String password = "password";
 
     public void createDB (String dbName) {
 

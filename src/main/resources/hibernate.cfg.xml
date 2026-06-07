@@ -21,7 +21,7 @@
         </property>
 
         <property name="hibernate.connection.password">
-            Abhay#12345
+            password
         </property>
 
         <property name="hibernate.dialect">
