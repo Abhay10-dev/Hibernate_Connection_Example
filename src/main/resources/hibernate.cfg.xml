@@ -12,8 +12,9 @@
             com.mysql.cj.jdbc.Driver
         </property>
 
+<!--        Change the [db_name] as per your database name-->
         <property name="hibernate.connection.url">
-            jdbc:mysql://localhost:3306/employee_laptop_db
+            jdbc:mysql://localhost:3306/[db_name]
         </property>
 
         <property name="hibernate.connection.username">

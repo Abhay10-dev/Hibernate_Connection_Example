@@ -1,14 +1,18 @@
 package org.lazyCoder.db;
 
+import org.lazyCoder.config.PropertyLoader;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class DBManage {
 
-    private final String url = "jdbc:mysql://localhost:3306/";
-    private final String username = "root";
-    private final String password = "password";
+    PropertyLoader propertyLoader = new PropertyLoader();
+
+    private final String url = propertyLoader.getUrl();
+    private final String username = propertyLoader.getUsername();
+    private final String password = propertyLoader.getPassword();
 
     public void createDB (String dbName) {
 

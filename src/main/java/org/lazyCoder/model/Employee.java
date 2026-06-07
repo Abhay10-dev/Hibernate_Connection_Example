@@ -59,6 +59,7 @@ public class Employee {
                 "empId=" + empId +
                 ", empName='" + empName + '\'' +
                 ", empSalary=" + empSalary +
+                ", laptop=" + laptop +
                 '}';
     }
 }

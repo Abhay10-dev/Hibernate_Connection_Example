@@ -58,6 +58,7 @@ public class Laptop {
                 "lapId=" + lapId +
                 ", lapName='" + lapName + '\'' +
                 ", lapPrice=" + lapPrice +
+                ", employee=" + employee +
                 '}';
     }
 }
